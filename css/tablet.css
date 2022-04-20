@@ -1,0 +1,48 @@
+@media all and (min-width: 769px) and (max-width: 992px) {
+    
+    #bloc_page {
+        width: auto;
+    }
+
+    #accomodation_container {
+        width: 95%;
+        flex-direction: column-reverse;
+    }
+
+    #accomodation_at {
+        width: 100%;
+        margin: 16px 0px;
+    }
+
+    #more_popular {
+        width: 100%;
+        margin: 16px 0px;
+    }
+
+    .more_popular_cards_container {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .popular_card {
+        width: 31%;
+        min-width: 208px;
+        height: 128px;
+    }
+    
+    .popular_card img {
+        width: 128px;
+    }
+
+    .popular_cards_infos {
+        padding: 8px 0px 8px 8px;
+    }
+
+    .activity_cards_bloc {
+        min-width: 176px;
+    }
+    
+    .activity_cards_bloc .activity_card_xl h3, .activity_cards_bloc .activity_card_ma h3 {
+        margin-top: 3.2px;
+    }
+}
